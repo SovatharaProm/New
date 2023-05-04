@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+// Route for User
+
+// Route for Admin
 Route::get('/a', function() {
     return view('Backend.dashboard');
 });
