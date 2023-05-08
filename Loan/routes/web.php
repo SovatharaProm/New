@@ -41,4 +41,8 @@ Route::get('/a/customer', function() {
     return view('Backend.dashboard');
 });
 
+Route::get('/login', function() {
+    return view('FrontEnd.login');
+});
+
 require __DIR__.'/auth.php';
