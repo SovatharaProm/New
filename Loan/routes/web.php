@@ -17,10 +17,28 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
 // Route for User
 
 // Route for Admin
+
 Route::get('/a', function() {
     return view('Backend.dashboard');
+})->name('admin');
+Route::get('/a/dashboard', function() {
+    return view('Backend.dashboard');
 });
+Route::get('/a/order', function() {
+    return view('Backend.dashboard');
+});
+Route::get('/a/product', function() {
+    return view('Backend.dashboard');
+});
+Route::get('/a/customer', function() {
+    return view('Backend.dashboard');
+});
+
+require __DIR__.'/auth.php';

@@ -6,81 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    {{-- public/assets/styles/boostrap.min.css --}}
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link href="{{ asset('assets/styles/bootstrap.min.css') }}" rel="stylesheet">
+    <style>.bd-placeholder-img {font-size: 1.125rem;text-anchor: middle;-webkit-user-select: none;-moz-user-select: none;user-select: none;}@media (min-width: 768px) {.bd-placeholder-img-lg {font-size: 3.5rem;}}.b-example-divider {width: 100%;height: 3rem;background-color: rgba(0, 0, 0, .1);border: solid rgba(0, 0, 0, .15);border-width: 1px 0;box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);}.b-example-vr {flex-shrink: 0;width: 1.5rem;height: 100vh;}.bi {vertical-align: -.125em;fill: currentColor;}</style>
 </head>
 
 <body>
-
-    {{-- Data --}}
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-6">
-                    <!-- $user -->
-                    <div class="small-box bg-info">
-                        <div class="inner">
-                            <h3>150</h3>
-
-                            <p>Users</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-bag"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i
-                                class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <!-- $loan -->
-                    <div class="small-box bg-success">
-                        <div class="inner">
-                            <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-                            <p>Loan</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i
-                                class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <!-- $loan_issue -->
-                    <div class="small-box bg-warning">
-                        <div class="inner">
-                            <h3>44</h3>
-
-                            <p>Loan Issused</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-person-add"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i
-                                class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <!-- $loan_amount -->
-                    <div class="small-box bg-danger">
-                        <div class="inner">
-                            <h3>65</h3>
-
-                            <p>Loan Amount</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-pie-graph"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i
-                                class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
+    <main class="d-flex flex-nowrap">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32"
+                        class="rounded-circle me-2">
+                    <strong>mdo</strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
             </div>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="{{ route('admin') }}" class="nav-link text-white" id="a">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#home" />
+                        </svg>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin') }}/dashboard" class="nav-link text-white" id="dashboard">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#speedometer2" />
+                        </svg>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin') }}/order" class="nav-link text-white" id="order">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#table" />
+                        </svg>
+                        Orders
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin') }}/product" class="nav-link text-white" id="product">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#grid" />
+                        </svg>
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin') }}/customer" class="nav-link text-white" id="customer">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#people-circle" />
+                        </svg>
+                        Customers
+                    </a>
+                </li>
+            </ul>
         </div>
-    </section>
+        <div class="b-example-divider b-example-vr" id='content'>e</div>
+    </main>
 
+    <script src="{{ asset('assets/scripts/bootstrap.bundle.min.js') }}"></script>
+    <script>
+        let li = document.getElementsByClassName('nav-link');
+        for (let i = 0; i < li.length; i++)
+            li[i].className = "nav-link text-white";
+        let url = window.location.href.split('/');
+        let active = document.getElementById(url[url.length - 1]);
+        active.className = "nav-link active";
+    </script>
 </body>
 
 </html>
