@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/a', function() {
     return view('Backend.dashboard');
 });
+
+Route::get('/login', function() {
+    return view('FrontEnd.login');
+});

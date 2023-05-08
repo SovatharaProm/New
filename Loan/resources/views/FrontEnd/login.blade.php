@@ -12,6 +12,10 @@
             <div class="form-value">
                 <form action="#">
                     <h2>Login</h2>
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label for="email">Email</label>
+                    </div>
                 </form>
             </div>
         </div>
