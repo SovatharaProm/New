@@ -23,11 +23,12 @@ Route::get('/dashboard', function () {
 
 // Route for User
 Route::get('/u', function() {
-    return view('welcome');
+    return view('Frontend.userHomepage');
 });
 Route::get('/u/request-loan', function() {
     return view('Frontend.requestLoan');
 });
+
 
 // Route for Admin
 Route::get('/a', function() {
