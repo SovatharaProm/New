@@ -6,8 +6,7 @@
 <title>Borrowed Loan</title>
 <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 <link href="{{ asset('assets/styles/bootstrap.min.css') }}" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('assets/scripts/bootstrap.min.js') }}" defer></script>
 @endsection
 
 @section('content')
