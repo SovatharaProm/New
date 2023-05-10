@@ -28,6 +28,9 @@ Route::get('/u', function() {
 Route::get('/u/request-loan', function() {
     return view('Frontend.requestLoan');
 });
+Route::get('/u/loans', function() {
+    return view('Frontend.loans');
+});
 
 
 // Route for Admin
