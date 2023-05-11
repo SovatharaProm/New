@@ -9,46 +9,54 @@
 @endsection
 
 @section('content')
-<section>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-                <div class="col-md-6 ">
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 ">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Quick Example</h3>
+                            <h3 class="card-title">Request for Loan</h3>
                         </div>
                         <!-- /.card-header -->
                         <!-- form start -->
-                        <form>
+                        <form method="POST" >
+                            @csrf
                             <div class="card-body">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        placeholder="Enter email">
+                                <div class="form-group py-3">
+                                    <label for="email">Name</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Joe"
+                                        name="email">
                                 </div>
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1"
-                                        placeholder="Password">
+                                <div class="form-group py-3">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="0123456789"
+                                        name="phone">
                                 </div>
-                                <div class="form-group">
-                                    <label for="exampleInputFile">File input</label>
-                                    <div class="input-group">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="exampleInputFile">
-                                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                                        </div>
-                                        <div class="input-group-append">
-                                            <span class="input-group-text">Upload</span>
-                                        </div>
-                                    </div>
+                                <div class="form-group py-3">
+                                    <label for="email">Email</label>
+                                    <input type="email" readonly class="form-control" id="email" value="exmaple@mail.com"
+                                        name="email">
                                 </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <div class="form-group py-3">
+                                    <label for="amount">Loan Amount</label>
+                                    <input type="number" class="form-control" name="amount" id="amount">
+                                </div>
+
+                                <div class="form-group py-3">
+                                    <label for="schedule">Payment Schedule</label>
+                                    <select id="schedule" name="schedule" class="form-control" id="schedule">
+                                        <option selected>Choose...</option>
+                                        <option value="1">Weekly</option>
+                                        <option value="2">Biweekly</option>
+                                        <option value="3">Monthly</option>
+                                    </select>
+                                </div>
+                                <div class="form-group py-3">
+                                    <label for="pin">Verification Pin</label>
+                                    <input type="password" class="form-control" name="pin" id="pin" minlength="6" maxlength="6">
                                 </div>
                             </div>
-                            <!-- /.card-body -->
+                            
 
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-primary">Submit</button>
