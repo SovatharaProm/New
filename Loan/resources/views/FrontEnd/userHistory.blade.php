@@ -4,17 +4,8 @@
 @endsection
 
 @section('content')
-</head>
-<body>
-	
-</body>
-</html>
 
-
-
-<html>
 <head>
-	<title>History</title>
 	<style>
 		table, th, td {
 			border: 1px solid black;
