@@ -60,9 +60,6 @@ Route::get('/a/customer', function() {
     return view('Backend.dashboard');
 });
 
-Route::get('/logins', function() {
-    return view('FrontEnd.login');
-});
 
 
 require __DIR__.'/auth.php';
