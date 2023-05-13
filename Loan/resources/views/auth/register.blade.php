@@ -45,6 +45,19 @@
                                 name="password_confirmation" required />
             </div>
 
+
+            <!-- Account type -->
+            <div class="mt-4">
+                <x-label for="type" :value="__('Account type')" />
+
+                <x-select id="select" class="block w-full" name="type">
+                    <option value="0" selected disabled hidden>{{ __('Choose an option') }}</option>
+                
+                    <option value="1">Borrower</option>
+                    <option value="2">Lender</option>
+                </x-select>
+                
+            </div>
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
