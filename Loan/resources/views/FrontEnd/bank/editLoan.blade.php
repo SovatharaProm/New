@@ -12,12 +12,13 @@
                 <div class="col-md-12 ">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Making Loans</h3>
+                            <h3 class="card-title">Edit Loans</h3>
                         </div>
                         <!-- /.card-header -->
                         <!-- form start -->
                         <form method="POST">
                             @csrf
+                            @method('PATCH')
                             <div class="card-body">
                                 <div class="form-group py-3">
                                     <label for="plan">Loan Plan</label>
@@ -199,7 +200,6 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>
