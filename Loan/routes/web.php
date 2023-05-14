@@ -23,16 +23,16 @@ Route::get('/dashboard', function () {
 
 // Route for User
 Route::get('/u', function() {
-    return view('Frontend.userHomepage');
+    return view('Frontend.user.homepage');
 });
 Route::get('/u/request-loan', function() {
-    return view('Frontend.requestLoan');
+    return view('Frontend.user.requestLoan');
 });
 Route::get('/u/loans', function() {
-    return view('Frontend.loans');
+    return view('Frontend.user.loans');
 });
 Route::get('/u/history', function() {
-    return view('Frontend.userHistory');
+    return view('Frontend.user.loanHistory');
 });
 
 

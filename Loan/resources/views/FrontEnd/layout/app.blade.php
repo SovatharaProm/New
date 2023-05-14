@@ -14,14 +14,14 @@
     <link href="{{ asset('assets/styles/bootstrap.min.css') }}" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('assets/scripts/bootstrap.min.js') }}" defer></script>
-
+    <style>main{min-height: 50vh;}</style>
 </head>
 
 <body>
     <header>
         @include('Frontend.layout.header')
     </header>
-    <main>
+    <main class="py-4 my-4">
         @yield('content')
     </main>
     <footer>
