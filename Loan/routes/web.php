@@ -40,6 +40,12 @@ Route::get('/u/history', function() {
 Route::get('/b/makeLoan', function() {
     return view('FrontEnd.bank.makeloan');
 });
+Route::get('/b/activeLoan', function() {
+    return view('FrontEnd.bank.activeLoan');
+});
+Route::get('/b/borrowerList', function() {
+    return view('FrontEnd.bank.borrowerList');
+});
 
 
 
