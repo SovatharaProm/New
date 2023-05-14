@@ -31,6 +31,16 @@ Route::get('/u/request-loan', function() {
 Route::get('/u/loans', function() {
     return view('Frontend.loans');
 });
+Route::get('/u/history', function() {
+    return view('Frontend.userHistory');
+});
+
+
+// Route for Bank
+Route::get('/b/makeLoan', function() {
+    return view('FrontEnd.bank.makeloan');
+});
+
 
 
 // Route for Admin
@@ -50,9 +60,6 @@ Route::get('/a/customer', function() {
     return view('Backend.dashboard');
 });
 
-Route::get('/logins', function() {
-    return view('FrontEnd.login');
-});
 
 
 require __DIR__.'/auth.php';

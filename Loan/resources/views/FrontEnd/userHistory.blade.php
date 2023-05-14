@@ -1,11 +1,6 @@
 @extends('Frontend.layout.app')
 @section('head')
     <title>History</title>
-@endsection
-
-@section('content')
-
-<head>
 	<style>
 		table, th, td {
 			border: 1px solid black;
@@ -13,8 +8,10 @@
 			padding: 10px;
 		}
 	</style>
-</head>
-<body>
+@endsection
+
+@section('content')
+
 	<h1>History</h1>
 	<table>
 		<tr>
@@ -38,7 +35,4 @@
 			<td>555-9012</td>
 		</tr>
 	</table>
-</body>
-</html>
-
 @endsection
