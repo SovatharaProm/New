@@ -1,6 +1,6 @@
-@extends ('Frontend.layout.app')
+@extends('Frontend.layout.app')
 @section('head')
-<title>Borrowed Loan</title>
+    <title>Active Loans</title>
 @endsection
 
 @section('content')
@@ -13,9 +13,10 @@
                     <tr>
                         <th>Loan#</th>
                         <th>Bank</th>
-                        <th>Loan Amount ($)</th>
+                        <th>Remaining Amount ($)</th>
                         <th>Loan Type</th>
                         <th>Interest Rate</th>
+                        <th>Payment Schedule</th>
                         <th>Due Date</th>
                     </tr>
                 </thead>
@@ -30,7 +31,7 @@
                     </tr>
                     <tr>
                         <td>002</td>
-                        <td>Sacombank</td>
+                        <td>ABA Bank</td>
                         <td>75,000</td>
                         <td>Cash</td>
                         <td>5%</td>
@@ -41,5 +42,4 @@
         </div>
     </div>
 </section>
-
 @endsection

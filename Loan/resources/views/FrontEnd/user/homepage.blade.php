@@ -15,10 +15,11 @@
                 <thead class="bg-success text-white">
                     <tr>
                         <th>Loan#</th>
-                        <th>From</th>
+                        <th>Bank</th>
                         <th>Loan Amount ($)</th>
                         <th>Loan Type</th>
                         <th>Interest Rate</th>
+                        <th>Payment Schedule</th>
                         <th>Due Date</th>
                     </tr>
                 </thead>
@@ -29,6 +30,7 @@
                         <td>50,000</td>
                         <td>Cash</td>
                         <td>7%</td>
+                        <td>Weekly</td>
                         <td>30/05/2023</td>
                     </tr>
                     <tr>
@@ -37,6 +39,7 @@
                         <td>75,000</td>
                         <td>Cash</td>
                         <td>5%</td>
+                        <td>Monthly</td>
                         <td>30/06/2023</td>
                     </tr>
                 </tbody>

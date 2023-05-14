@@ -19,8 +19,8 @@
                         @csrf
                         <div class="card-body">
                             <div class="form-group py-3">
-                                <label for="schedule">Payment Schedule</label>
-                                <select id="schedule" name="schedule" class="form-control" id="schedule" required>
+                                <label for="plan">Loan Plan</label>
+                                <select id="plan" name="plan" class="form-control" id="plan" required>
                                     <option selected>Choose...</option>
                                     <option value="1">Personal Loan</option>
                                     <option value="2">Business Loan</option>
@@ -31,7 +31,7 @@
                             </div>
                             <div class="form-group py-3">
                                 <label for="loanID">Loan#</label>
-                                <input type="text" class="form-control" id="loanID" maxlength="8" placeholder="#1102030" name="loanID" required>
+                                <input type="text" class="form-control" id="loanID" maxlength="8" placeholder="#1102030" name="loanID" readonly required>
                             </div>
 
                             <!--Information Required for Loans-->
