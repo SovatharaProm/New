@@ -45,18 +45,18 @@ Route::get('/b/makeLoan', function() {
 
 // Route for Admin
 Route::get('/a', function() {
-    return view('Backend.dashboard');
+    return view('Backend.homepage');
 })->name('admin');
 Route::get('/a/dashboard', function() {
     return view('Backend.dashboard');
 });
-Route::get('/a/order', function() {
+Route::get('/a/loan', function() {
     return view('Backend.dashboard');
 });
-Route::get('/a/product', function() {
+Route::get('/a/bank', function() {
     return view('Backend.dashboard');
 });
-Route::get('/a/customer', function() {
+Route::get('/a/borrower', function() {
     return view('Backend.dashboard');
 });
 
