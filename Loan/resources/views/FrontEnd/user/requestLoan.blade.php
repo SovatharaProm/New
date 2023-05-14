@@ -18,6 +18,11 @@
                             @csrf
                             <div class="card-body">
                                 <div class="form-group py-3">
+                                    <label for="email">Loan#</label>
+                                    <input type="email" readonly class="form-control" id="email" placeholder="123122"
+                                        name="email">
+                                </div>
+                                <div class="form-group py-3">
                                     <label for="email">Name</label>
                                     <input type="email" class="form-control" id="email" placeholder="Joe"
                                         name="email">

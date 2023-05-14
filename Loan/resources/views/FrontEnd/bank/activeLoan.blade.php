@@ -14,7 +14,7 @@
                         <th>Loan#</th>
                         <th>Bank</th>
                         <th>Remaining Amount ($)</th>
-                        <th>Loan Type</th>
+                        <th>Loan Plan</th>
                         <th>Interest Rate</th>
                         <th>Payment Schedule</th>
                         <th>Due Date</th>
@@ -25,7 +25,7 @@
                         <td>001</td>
                         <td>ABA Bank</td>
                         <td>50,000</td>
-                        <td>Cash</td>
+                        <td>Business Plan</td>
                         <td>7%</td>
                         <td>30/05/2023</td>
                     </tr>
@@ -33,7 +33,7 @@
                         <td>002</td>
                         <td>ABA Bank</td>
                         <td>75,000</td>
-                        <td>Cash</td>
+                        <td>Business Plan</td>
                         <td>5%</td>
                         <td>30/06/2023</td>
                     </tr>
