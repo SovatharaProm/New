@@ -7,7 +7,7 @@
 
 @section('content')
     <div class="container-fluid">
-        <div class="row">
+        <div class="row pt-4">
             <div class="col-lg-3 col-6">
                 <!-- small box -->
                 <div class="small-box bg-info">
@@ -68,6 +68,43 @@
                 </div>
             </div>
             <!-- ./col -->
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="table-responsive-sm">
+                    <h3>Unverified User</h3>
+                    <table class="table table-bordered table-hover">
+                        <thead class="bg-success text-white">
+                            <tr>
+                                <th>Username</th>
+                                <th>Account Type</th>
+                                <th>Registered Date</th>
+                                <th>Last Update</th>
+                                <th>Approve</th>
+                                <th>Reject</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>Bank</td>
+                                <td>12-12-2023</td>
+                                <td>12-12-2023</td>
+                                <td ><button class="bg-success">Approve</button></td>
+                                <td ><button class="bg-danger">Reject</button></td>
+                            </tr>
+                            <tr>
+                                <td>002</td>
+                                <td>Borrower</td>
+                                <td>12-12-2023</td>
+                                <td>12-12-2023</td>
+                                <td ><button class="bg-success">Approve</button></td>
+                                <td ><button class="bg-danger">Reject</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
