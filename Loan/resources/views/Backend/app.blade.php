@@ -96,8 +96,8 @@
             </ul>
         </div>
         <div class="b-example-divider b-example-vr" id='content'>
-            @yield('content')
         </div>
+        @yield('content')
     </main>
 
     <script src="{{ asset('assets/scripts/bootstrap.bundle.min.js') }}"></script>
