@@ -16,23 +16,41 @@
 	<table>
 		<tr>
 			<th>Name</th>
-			<th>Lend Info</th>
+			<th>Bank Name</th>
+			<th>Amount</th>
+			<th>Payemnt Schedule</th>
+			<th>Loan Plan</th>
+			<th>Interest Rate</th>			
 			<th>Payment</th>
 		</tr>
 		<tr>
 			<td>John Doe</td>
-			<td>1000$</td>
-			<td>555-1234</td>
+			<td>Maybank</td>
+			<td>2000$</td>
+			<td>04/15/2023</td>
+			<td>Personal Loan</td>
+			<td>5%</td>
+			<td>Payemnt=3000$</td>
 		</tr>
 		<tr>
 			<td>Jane Doe</td>
+			<td>Maybank</td>
 			<td>2000$</td>
-			<td>555-5678</td>
+			<td>04/15/2023</td>
+			<td>Personal Loan</td>
+			<td>5%</td>
+			<td>Payment=3000$</td>
 		</tr>
 		<tr>
 			<td>Bob Smith</td>
+			<td>Maybank</td>
 			<td>2000$</td>
-			<td>555-9012</td>
+			<td>04/15/2023</td>
+			<td>Personal Loan</td>
+			<td>5%</td>
+			<td>Payemnt=3000$</td>
 		</tr>
 	</table>
+</body>
+</html>
 @endsection
