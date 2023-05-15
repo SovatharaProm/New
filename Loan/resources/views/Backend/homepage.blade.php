@@ -76,6 +76,7 @@
                     <table class="table table-bordered table-hover">
                         <thead class="bg-success text-white">
                             <tr>
+                                <th>ID</th>
                                 <th>Username</th>
                                 <th>Account Type</th>
                                 <th>Registered Date</th>
@@ -87,6 +88,7 @@
                         <tbody>
                             <tr>
                                 <td>001</td>
+                                <td>jack_ma</td>
                                 <td>Bank</td>
                                 <td>12-12-2023</td>
                                 <td>12-12-2023</td>
@@ -95,6 +97,7 @@
                             </tr>
                             <tr>
                                 <td>002</td>
+                                <td>steve</td>
                                 <td>Borrower</td>
                                 <td>12-12-2023</td>
                                 <td>12-12-2023</td>
