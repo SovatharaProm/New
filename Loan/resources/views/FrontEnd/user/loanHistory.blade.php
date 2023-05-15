@@ -6,7 +6,19 @@
 			border: 1px solid black;
 			border-collapse: collapse;
 			padding: 10px;
+            
 		}
+        {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
+	  }
+	  body{
+		
+		background: #88ABFF;
+		padding: 1rem;
+	  }
 	</style>
 @endsection
 
