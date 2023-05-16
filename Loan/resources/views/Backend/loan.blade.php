@@ -76,34 +76,36 @@
                     <table class="table table-bordered table-hover">
                         <thead class="bg-success text-white">
                             <tr>
-                                <th>ID</th>
-                                <th>Username</th>
-                                <th>Account Number</th>
-                                <th>Account Type</th>
-                                <th>Registered Date</th>
-                                <th>Last Update</th>
-                                <th>Action</th>
+                                <th>Loan ID</th>
+                                <th>Bank Name</th>
+                                <th>Loan Plan</th>
+                                <th>Amount</th>
+                                <th>Payemnt Schedule</th>
+                                <th>Duration</th>
+                                <th>Interest Rate</th>
+                                <th>Issued Date</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>001</td>
-                                <td>jack_ma</td>
-                                <td>2222222</td>
-                                <td>Bank</td>
+                                <td>ABA Bank</td>
+                                <td>Business Loan</td>
+                                <td>20000</td>
+                                <td>Weekly</td>
+                                <td>2 Year</td>
+                                <td>7%</td>
                                 <td>12-12-2023</td>
-                                <td>12-12-2023</td>
-                                <td><button class="bg-success">Edit</button><button class="bg-danger">Delete</button>
-                                </td>
                             </tr>
                             <tr>
-                                <td>002</td>
-                                <td>steve</td>
-                                <td>1111111</td>
-                                <td>Borrower</td>
+                                <td>001</td>
+                                <td>ABA Bank</td>
+                                <td>Business Loan</td>
+                                <td>15000</td>
+                                <td>Monthly</td>
+                                <td>1 Year</td>
+                                <td>15%</td>
                                 <td>12-12-2023</td>
-                                <td>12-12-2023</td>
-                                <td><button class="bg-success">Edit</button><button class="bg-danger">Delete</button></td>
                             </tr>
                         </tbody>
                     </table>

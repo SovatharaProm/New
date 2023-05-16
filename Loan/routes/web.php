@@ -53,19 +53,23 @@ Route::get('/b/borrowerList', function() {
 Route::get('/a', function() {
     return view('Backend.homepage');
 })->name('admin');
-Route::get('/a/dashboard', function() {
-    return view('Backend.dashboard');
+Route::get('/a/user', function() {
+    return view('Backend.newUser');
 });
 Route::get('/a/loan', function() {
-    return view('Backend.dashboard');
+    return view('Backend.loan');
 });
 Route::get('/a/bank', function() {
-    return view('Backend.dashboard');
+    return view('Backend.bank');
 });
 Route::get('/a/borrower', function() {
-    return view('Backend.dashboard');
+    return view('Backend.borrower');
 });
-
-
+Route::get('/a/status', function() {
+    return view('Backend.status');
+});
+Route::get('/a/suspend', function() {
+    return view('Backend.suspend');
+});
 
 require __DIR__.'/auth.php';

@@ -74,8 +74,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('admin') }}/dashboard" class="nav-link text-white" id="dashboard">
-                        Dashboard
+                    <a href="{{ route('admin') }}/user" class="nav-link text-white" id="user">
+                        New Users
                     </a>
                 </li>
                 <li>

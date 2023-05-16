@@ -117,7 +117,6 @@
                                             <option value="30">30</option>
                                             <option value="31">31</option>
                                         </select>
-                                        </select>
                                     </div>
                                     <div style="display:flex; justify-content: space-evenly">-</div>
                                     <div class="form-group col-md-4" style="margin-left: 10px;">

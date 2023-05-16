@@ -100,7 +100,7 @@
                                 <td>002</td>
                                 <td>steve</td>
                                 <td>1111111</td>
-                                <td>Borrower</td>
+                                <td>Bank</td>
                                 <td>12-12-2023</td>
                                 <td>12-12-2023</td>
                                 <td><button class="bg-success">Edit</button><button class="bg-danger">Delete</button></td>
