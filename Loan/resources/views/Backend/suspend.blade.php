@@ -40,7 +40,7 @@
 
 
                             <div class='py-3'>
-                                <p>Credentail</p>
+                                <p>Credential</p>
                                 <div class="album py-5 bg-body-tertiary">
                                     <div class="container">
 

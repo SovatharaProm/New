@@ -80,7 +80,7 @@
                                 <th>Bank Name</th>
                                 <th>Loan Plan</th>
                                 <th>Amount</th>
-                                <th>Payemnt Schedule</th>
+                                <th>Payment Schedule</th>
                                 <th>Duration</th>
                                 <th>Interest Rate</th>
                                 <th>Issued Date</th>
