@@ -8,7 +8,7 @@
 			padding: 10px;
             
 		}
-        {
+        * {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -30,7 +30,7 @@
 			<th>Name</th>
 			<th>Bank Name</th>
 			<th>Amount</th>
-			<th>Payemnt Schedule</th>
+			<th>Payment Schedule</th>
 			<th>Loan Plan</th>
 			<th>Interest Rate</th>			
 			<th>Payment</th>
@@ -42,7 +42,7 @@
 			<td>04/15/2023</td>
 			<td>Personal Loan</td>
 			<td>5%</td>
-			<td>Payemnt=3000$</td>
+			<td>Payment=3000$</td>
 		</tr>
 		<tr>
 			<td>Jane Doe</td>
@@ -60,7 +60,7 @@
 			<td>04/15/2023</td>
 			<td>Personal Loan</td>
 			<td>5%</td>
-			<td>Payemnt=3000$</td>
+			<td>Payment=3000$</td>
 		</tr>
 	</table>
 </body>
