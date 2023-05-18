@@ -9,6 +9,7 @@
     .form-heading-line {
         color: red;
         padding-left: 5px;
+        margin-bottom: 30px;
     }
 
     .form-heading-line::after {
