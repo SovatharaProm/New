@@ -34,6 +34,12 @@ Route::get('/u/loans', function() {
 Route::get('/u/history', function() {
     return view('Frontend.user.loanHistory');
 });
+Route::get('/u/login', function() {
+    return view('Frontend.user.login');
+});
+Route::get('/u/signup', function() {
+    return view('Frontend.user.signup');
+});
 Route::get('/', function () {
     return view('Frontend.main');
 });
