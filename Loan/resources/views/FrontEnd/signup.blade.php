@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Infogram | Sign Up </title>
+    <title>Sign Up </title>
     <link rel="stylesheet" href="css/login.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
