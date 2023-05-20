@@ -34,6 +34,10 @@ Route::get('/u/loans', function() {
 Route::get('/u/history', function() {
     return view('Frontend.user.loanHistory');
 });
+Route::get('/', function () {
+    return view('Frontend.main');
+});
+
 
 
 // Route for Bank

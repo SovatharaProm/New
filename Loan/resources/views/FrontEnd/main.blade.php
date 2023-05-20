@@ -5,8 +5,4 @@
 
 @section ('content')
 
-
-
-
-
 @endsection
