@@ -65,6 +65,7 @@
     </div>
 
     <div class="container marketing">
+        <h2 class="text-center py-5">Banks</h2>
         <hr class="featurette-divider">
 
         <div class="row featurette">
