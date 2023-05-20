@@ -68,36 +68,42 @@
         <h2 class="text-center py-5">Banks</h2>
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="rowfeaturette">
+            <div class="col-md-5">
+                <img src="https://img.freepik.com/premium-vector/bank-building-money-bank-financing-money-exchange-financial-services-atm-giving-out-money_625536-194.jpg?w=2000" margin-right="10px" width="80px" height="auto"
+                display="block" alt="Bank">
+            </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Bank Name</h2>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In reiciendis est iusto, commodi vel laudantium omnis quisquam tenetur accusamus nihil.</p>
             </div>
-            <div class="col-md-5">
-                <img src="" alt="Image here">
-            </div>
+           
         </div>
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="rowfeaturette">
+            <div class="col-md-5">
+                <img src="https://img.freepik.com/premium-vector/bank-building-money-bank-financing-money-exchange-financial-services-atm-giving-out-money_625536-194.jpg?w=2000" margin-right="10px" width="80px" height="auto"
+                display="block" alt="Bank">
+            </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Bank Name</h2>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In reiciendis est iusto, commodi vel laudantium omnis quisquam tenetur accusamus nihil.</p>
             </div>
-            <div class="col-md-5">
-                <img src="" alt="Image here">
-            </div>
+            
         </div>
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="rowfeaturette">
+            <div class="col-md-5">
+                <img src="https://img.freepik.com/premium-vector/bank-building-money-bank-financing-money-exchange-financial-services-atm-giving-out-money_625536-194.jpg?w=2000" margin-right="10px" width="80px" height="auto"
+                display="block" alt="Bank">
+            </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Bank Name</h2>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In reiciendis est iusto, commodi vel laudantium omnis quisquam tenetur accusamus nihil.</p>
-            </div>
-            <div class="col-md-5">
-                <img src="" alt="Image here">
             </div>
         </div>
     </div>
+
 @endsection
