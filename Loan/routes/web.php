@@ -35,10 +35,10 @@ Route::get('/u/history', function() {
     return view('Frontend.user.loanHistory');
 });
 Route::get('/u/login', function() {
-    return view('Frontend.user.login');
+    return view('Frontend.login');
 });
 Route::get('/u/signup', function() {
-    return view('Frontend.user.signup');
+    return view('Frontend.signup');
 });
 Route::get('/', function () {
     return view('Frontend.main');
