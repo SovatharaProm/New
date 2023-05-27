@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class LoanHistory extends Model
 {
     use HasFactory;
+    protected $guarded = [];
+    protected $table = 'loan_history';
 }
