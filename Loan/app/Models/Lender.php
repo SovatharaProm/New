@@ -5,3 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+class Lender extends Model
+{
+    use HasFactory;
+    protected $fillable = ['BankID', 'UserID', 'Password','Pin','phonenumber'];
+}
