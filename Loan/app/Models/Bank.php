@@ -11,13 +11,3 @@ class Bank extends Model
     protected $guarded = [];
     protected $table = 'bank';
 }
-class BankLoan extends Model
-{
-    use HasFactory;
-    protected $fillable = ['name', 'rate', 'MaxAmount','MinAmount','Description','PaymentSched'];
-}
-class Lender extends Model
-{
-    use HasFactory;
-    protected $fillable = ['BankID', 'UserID', 'Password','Pin','phonenumber'];
-}
